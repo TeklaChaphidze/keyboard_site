@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+}
+
+img {
+  cursor: pointer;
+}
+
+.mainContent {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 150px;
+}
+
+header {
+  width: 100%;
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerIcon img:hover {
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.headerButton button {
+  width: 175px;
+  padding: 17px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #162542;
+  background-color: #e8eff2;
+  transition: all 0.5s ease-out;
+}
+
+.headerButton button:hover {
+  background-color: #162542;
+  color: #ffffff;
+}
+
+.firstSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.firstContainer {
+  width: 445px;
+  height: 315px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boldText {
+  font-size: 56px;
+  color: #162542;
+}
+
+.divP {
+  font-size: 18px;
+  color: #7b8bad;
+}
+
+.buttonSection {
+  display: flex;
+  align-items: center;
+}
+
+.buttonSection button {
+  padding: 17px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #f16718;
+  color: #ffffff;
+  transition: all 0.5s ease-out;
+}
+
+.buttonSection button:hover {
+  color: #ffffff;
+  background-color: #ff9b62;
+}
+
+.divP2 {
+  font-size: 16px;
+  margin-left: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #7b8bad;
+}
+
+.secondSection {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondSetionImagesParent {
+  display: flex;
+}
+
+.secondSection-image1 {
+  width: 255px;
+  height: 480px;
+  border-radius: 20px;
+  background-color: #f16718;
+}
+
+.secondSection-image1 img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.secondSection-image2 {
+  width: 445px;
+  height: 480px;
+}
+
+.secondSection-image2 img {
+  width: 100%;
+  height: 100%;
+  margin-left: 30px;
+}
+
+.secondContainer {
+  width: 250px;
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.boldText2 {
+  font-size: 32px;
+  color: #162542;
+}
+
+.divP3 {
+  font-size: 16px;
+  color: #7b8bad;
+}
+
+.lastSection {
+  max-width: 1110px;
+  height: 323px;
+  display: flex;
+  margin-top: 170px;
+}
+
+.section4-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.section4-div2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 100px; */
+}
+
+.lastSection img:hover {
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.lastSectionChild1 {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.computer img {
+  border-radius: 20px;
+}
+
+.boldText3 {
+  width: 150px;
+  font-size: 24px;
+  color: #162542;
+}
+
+.divP4 {
+  width: 250px;
+  font-size: 16px;
+  color: #7b8bad;
+}
+
+.lastSectionChild2 {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bluetooth img {
+  border-radius: 20px;
+}
+
+.boldText4 {
+  width: 200px;
+  font-size: 24px;
+  color: #162542;
+}
+
+.divP5 {
+  width: 250px;
+  font-size: 16px;
+  color: #7b8bad;
+}
+
+.lastSectionChild3 {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.battery img {
+  border-radius: 20px;
+}
+
+.boldText5 {
+  width: 200px;
+  font-size: 24px;
+  color: #162542;
+}
+
+.divP6 {
+  width: 250px;
+  font-size: 16px;
+  color: #7b8bad;
+}
+
+.lastSectionChild4 {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.boldText6 {
+  width: 200px;
+  font-size: 24px;
+  color: #162542;
+}
+
+.divP7 {
+  width: 250px;
+  font-size: 16px;
+  color: #7b8bad;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 150px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: #7b8bad;
+}
+
+.footerChild {
+  display: flex;
+  align-items: center;
+}
